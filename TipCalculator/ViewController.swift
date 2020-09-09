@@ -9,17 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    
     // Drag and drop elements
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var billAmountTextField: UITextField!
     @IBOutlet weak var tipPercentageLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 
     @IBAction func onTap(_ sender: Any) {
     }
